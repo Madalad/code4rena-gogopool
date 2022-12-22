@@ -10,4 +10,5 @@ abstract contract Base is BaseAbstract {
 		// Update the contract address
 		gogoStorage = Storage(_gogoStorageAddress);
 	}
+	/// @audit no zero address check
 }
